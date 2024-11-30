@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js Sketch Selector</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <script src="p5.sound.min.js"></script>
+</head>
+<body>
+  <div class="overlay">
+    <button onclick="loadSketch('sketch1.js')">Load Sketch 1</button>
+    <button onclick="loadSketch('sketch2.js')">Load Sketch 2</button>
+  </div>
+  <div id="sketch-container"></div>
+  <script src="main.js"></script>
+</body>
+</html>
